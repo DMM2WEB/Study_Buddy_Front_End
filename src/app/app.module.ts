@@ -28,6 +28,8 @@ import { DrawerService } from './Service/drawer.service';
 import { SetsComponent } from './Components/sets/sets.component';
 import { AddSetComponentDialog, FlashCardSetComponent } from './Pages/flash-card-set/flash-card-set.component';
 
+import { FooterComponent } from './Components/footer/footer.component';
+
 
 
 @NgModule({
@@ -47,6 +49,8 @@ import { AddSetComponentDialog, FlashCardSetComponent } from './Pages/flash-card
     HomePageComponent,
     ErrorPageComponent,
     BodyComponent,
+    ViewFlashCardsDialogComponent,
+    FooterComponent,
     SetsComponent,
     FlashCardSetComponent,
     AddSetComponentDialog

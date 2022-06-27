@@ -11,6 +11,7 @@ import { ViewNotesComponent } from './Pages/view-notes/view-notes.component';
 import { ViewFlashCardsComponent } from './Pages/view-flash-cards/view-flash-cards.component';
 import { FlashCardSetComponent } from './Pages/flash-card-set/flash-card-set.component';
 
+
 const routes: Routes = [
   { path: '', component: HomePageComponent },
   { path: 'login', component: LoginComponent },
