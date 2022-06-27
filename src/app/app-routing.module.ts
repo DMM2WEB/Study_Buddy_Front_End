@@ -20,6 +20,8 @@ const routes: Routes = [
   { path: 'flash-cards', component: FlashCardSetComponent },
   { path: 'view-flash-cards/:setId', component: ViewFlashCardsComponent },
   { path: 'register', component: RegisterComponent },
+  { path: 'home', component: HomePageComponent },
+
   // test routes
   { path: 'flash-card-test', component: ViewFlashCardsComponent },
   { path: 'addNotetest', component: AddNotesComponent },
